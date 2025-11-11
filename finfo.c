@@ -1,5 +1,5 @@
 /*
-* Filename: finfo.c
+* Filename: finfo.c 
 * Author: Sebastian Pacocha 
 * Section: CPE 2600 - 112
 * Date: 10/31/2025

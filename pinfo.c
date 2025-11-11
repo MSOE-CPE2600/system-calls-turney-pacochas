@@ -24,7 +24,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
     pid_t pid = (pid_t)atoi(argv[1]);
-    int policy = sched_getscheduler(pid);
+    int policy = sched_getscheduler(pid); 
     if (policy != -1) {
         printf("Scheduling policy for PID %d is %d\n", pid, policy);
     } else {
