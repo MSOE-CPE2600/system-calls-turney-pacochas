@@ -20,7 +20,7 @@
 #include <sys/utsname.h>   
 #include <sys/sysinfo.h>
 #include <unistd.h>
-int main(char argc, char *argv[]) {
+int main(int argc, char *argv[]) {
     // current time in nanoseconds
     struct timespec ts;
     if (clock_gettime(CLOCK_REALTIME, &ts) == 0) {
